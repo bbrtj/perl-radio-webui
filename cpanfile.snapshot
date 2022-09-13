@@ -1,0 +1,155 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Mojo-Redis-3.29
+    pathname: J/JH/JHTHORSEN/Mojo-Redis-3.29.tar.gz
+    provides:
+      Mojo::Redis 3.29
+      Mojo::Redis::Cache undef
+      Mojo::Redis::Connection undef
+      Mojo::Redis::Connection::Offline undef
+      Mojo::Redis::Cursor undef
+      Mojo::Redis::Database undef
+      Mojo::Redis::PubSub undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      Mojolicious 8.50
+      Protocol::Redis::Faster 0.002
+      perl 5.016
+  Mojolicious-9.26
+    pathname: S/SR/SRI/Mojolicious-9.26.tar.gz
+    provides:
+      Mojo undef
+      Mojo::Asset undef
+      Mojo::Asset::File undef
+      Mojo::Asset::Memory undef
+      Mojo::Base undef
+      Mojo::ByteStream undef
+      Mojo::Cache undef
+      Mojo::Collection undef
+      Mojo::Content undef
+      Mojo::Content::MultiPart undef
+      Mojo::Content::Single undef
+      Mojo::Cookie undef
+      Mojo::Cookie::Request undef
+      Mojo::Cookie::Response undef
+      Mojo::DOM undef
+      Mojo::DOM::CSS undef
+      Mojo::DOM::HTML undef
+      Mojo::Date undef
+      Mojo::DynamicMethods undef
+      Mojo::EventEmitter undef
+      Mojo::Exception undef
+      Mojo::File undef
+      Mojo::Headers undef
+      Mojo::HelloWorld undef
+      Mojo::Home undef
+      Mojo::IOLoop undef
+      Mojo::IOLoop::Client undef
+      Mojo::IOLoop::Server undef
+      Mojo::IOLoop::Stream undef
+      Mojo::IOLoop::Subprocess undef
+      Mojo::IOLoop::TLS undef
+      Mojo::JSON undef
+      Mojo::JSON::Pointer undef
+      Mojo::Loader undef
+      Mojo::Log undef
+      Mojo::Message undef
+      Mojo::Message::Request undef
+      Mojo::Message::Response undef
+      Mojo::Parameters undef
+      Mojo::Path undef
+      Mojo::Promise undef
+      Mojo::Reactor undef
+      Mojo::Reactor::EV undef
+      Mojo::Reactor::Poll undef
+      Mojo::Server undef
+      Mojo::Server::CGI undef
+      Mojo::Server::Daemon undef
+      Mojo::Server::Hypnotoad undef
+      Mojo::Server::Morbo undef
+      Mojo::Server::Morbo::Backend undef
+      Mojo::Server::Morbo::Backend::Poll undef
+      Mojo::Server::PSGI undef
+      Mojo::Server::Prefork undef
+      Mojo::Template undef
+      Mojo::Transaction undef
+      Mojo::Transaction::HTTP undef
+      Mojo::Transaction::WebSocket undef
+      Mojo::URL undef
+      Mojo::Upload undef
+      Mojo::UserAgent undef
+      Mojo::UserAgent::CookieJar undef
+      Mojo::UserAgent::Proxy undef
+      Mojo::UserAgent::Server undef
+      Mojo::UserAgent::Transactor undef
+      Mojo::Util undef
+      Mojo::WebSocket undef
+      Mojolicious 9.26
+      Mojolicious::Command undef
+      Mojolicious::Command::Author::cpanify undef
+      Mojolicious::Command::Author::generate undef
+      Mojolicious::Command::Author::generate::app undef
+      Mojolicious::Command::Author::generate::dockerfile undef
+      Mojolicious::Command::Author::generate::lite_app undef
+      Mojolicious::Command::Author::generate::makefile undef
+      Mojolicious::Command::Author::generate::plugin undef
+      Mojolicious::Command::Author::inflate undef
+      Mojolicious::Command::cgi undef
+      Mojolicious::Command::daemon undef
+      Mojolicious::Command::eval undef
+      Mojolicious::Command::get undef
+      Mojolicious::Command::prefork undef
+      Mojolicious::Command::psgi undef
+      Mojolicious::Command::routes undef
+      Mojolicious::Command::version undef
+      Mojolicious::Commands undef
+      Mojolicious::Controller undef
+      Mojolicious::Lite undef
+      Mojolicious::Plugin undef
+      Mojolicious::Plugin::Config undef
+      Mojolicious::Plugin::DefaultHelpers undef
+      Mojolicious::Plugin::EPLRenderer undef
+      Mojolicious::Plugin::EPRenderer undef
+      Mojolicious::Plugin::HeaderCondition undef
+      Mojolicious::Plugin::JSONConfig undef
+      Mojolicious::Plugin::Mount undef
+      Mojolicious::Plugin::NotYAMLConfig undef
+      Mojolicious::Plugin::TagHelpers undef
+      Mojolicious::Plugins undef
+      Mojolicious::Renderer undef
+      Mojolicious::Routes undef
+      Mojolicious::Routes::Match undef
+      Mojolicious::Routes::Pattern undef
+      Mojolicious::Routes::Route undef
+      Mojolicious::Sessions undef
+      Mojolicious::Static undef
+      Mojolicious::Types undef
+      Mojolicious::Validator undef
+      Mojolicious::Validator::Validation undef
+      Test::Mojo undef
+      ojo undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Socket::IP 0.37
+      Sub::Util 1.41
+      perl 5.016
+  Protocol-Redis-1.0011
+    pathname: U/UN/UNDEF/Protocol-Redis-1.0011.tar.gz
+    provides:
+      Protocol::Redis 1.0011
+      Protocol::Redis::Test undef
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Test::More 0.94
+      perl 5.008001
+  Protocol-Redis-Faster-0.003
+    pathname: D/DB/DBOOK/Protocol-Redis-Faster-0.003.tar.gz
+    provides:
+      Protocol::Redis::Faster 0.003
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Protocol::Redis 1.0000
+      parent 0
+      perl 5.008001
